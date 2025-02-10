@@ -17,20 +17,25 @@ This repository contains a Telegram bot that leverages OpenAI's GPT-3.5/4 to pro
 - **Logging** (For debugging and monitoring)
 
 - How It Works
+  
 📌 Echo Bot (echo_bot.py)
 A basic bot that responds with the same message the user sends.
+
 Commands:
 /start - Start the bot
 /help - Display help message
 Any message → Echoes back
+
 🤖 AI Chatbot (main.py)
 Uses OpenAI GPT API for responses.
 Maintains previous conversation context.
+
 Commands:
 /start - Start conversation
 /help - Display help message
 /clear - Clear conversation history
 Any message → AI-generated response
+
 Bot Commands
 Command	Description
 /start	Start the conversation
