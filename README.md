@@ -31,13 +31,15 @@ Uses OpenAI GPT API for responses.
 Maintains previous conversation context.
 
 Commands:
+
 /start - Start conversation
 /help - Display help message
 /clear - Clear conversation history
 Any message → AI-generated response
 
-Bot Commands
-Command	Description
+Bot Commands:
+
+Command	Description:
 /start	Start the conversation
 /help	Show help menu
 /clear	Reset chat history
